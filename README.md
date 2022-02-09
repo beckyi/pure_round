@@ -44,7 +44,7 @@ Manually implement from one to ten directly.
 
     - html-webpack-plugin
         - 빌드 결과를 자동 주입 (template)
-
+        -  https://yamoo9.gitbook.io/webpack/webpack/webpack-plugins/automatic-injection-to-html-document
     - clean-webpack-plugin
         - 동일한 빌드 결과물 삭제
 

@@ -34,6 +34,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'webpack servers',
       template: './public/template.ejs',
+      inject: false,
+      minify: true,   // 압축 설정
+
+      templateParameters: {
+        title: 'Webpack Build ENV', // 문서 타이틀
+        lang: 'ko-KR',             // 주 언어 명시
+      },
     }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
