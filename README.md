@@ -61,3 +61,6 @@ Manually implement from one to ten directly.
 
     - tsc -- init
         tsconfig.json 생성 (타입스크립트 설정 파일)
+
+    - tsc-watch
+        ts 타입검사
